@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "무엇이든 만들어보살",
+    "version": "1.0",
+    "description": "새탭에서 뭘 보여줄까",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": ["storage"]
+}
