@@ -1,4 +1,5 @@
-import './App.css'
+import '@/assets/less/reset.less'
+import '@/assets/less/main.less'
 
 function App() {
 

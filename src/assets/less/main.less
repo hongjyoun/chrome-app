@@ -1,0 +1,25 @@
+@import '@/assets/less/vars.less';
+
+body {
+  .ff(@notosans)
+}
+
+.scroll-bar {
+  &::-webkit-scrollbar {
+    width: 8px;  // 스크롤바의 너비
+  }
+
+  &::-webkit-scrollbar-track {
+    background: @background;  // 트랙 색상
+    border-radius: 10px;  // 트랙의 모서리를 둥글게
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: darken(@background, 10%);  // 스크롤바 색상
+    border-radius: 10px;  // 스크롤바의 모서리를 둥글게
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: darken(@background, 20%);  // 호버 시 스크롤바 색상
+  }
+}
